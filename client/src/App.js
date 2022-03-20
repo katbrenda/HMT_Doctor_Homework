@@ -1,19 +1,29 @@
-import { Link, Outlet } from 'react-router-dom';
+import { Link, Outlet } from "react-router-dom";
 
 function App() {
   return (
     <div>
-      <h1>Starter App</h1>
       <nav
         style={{
-          borderBottom:'1px solid'
+          padding: "0 20px",
+          borderBottom: "1px solid",
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center",
         }}
-        >
-          <Link to='/home'>Home</Link> - {' '}
-          <Link to='/about'>About</Link>
+      >
+        <h1>Starter App</h1>
+        <nav>
+          <Link to="/home">Home</Link> - <Link to="/about">About</Link>
         </nav>
-        <p>Outlet component here</p>
+      </nav>
+      <div
+        style={{
+          padding: "0 20px",
+        }}
+      >
         <Outlet />
+      </div>
     </div>
   );
 }

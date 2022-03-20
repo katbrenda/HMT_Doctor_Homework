@@ -8,7 +8,7 @@ It is Rails 7 API app with React frontend.
 - clone this repo
 
 ```
-$ git clone git@github.com:jimibue/starter-w21-router6.git <project_name>
+$ git clone git@github.com:jimibue/rails-context-router6-starter.git <project_name>
  cd <project_name>
 ```
 
@@ -23,9 +23,12 @@ TODO
 ### Libraries
 
 - React (v)
-- react-router (v6)
 - Faker
-- Rails 
+- Pry-Rails
+
+- react-router (v6)
+- axios
+- styled components
 
 # starter project used for client dir
 https://github.com/jimibue/router-context-starter-sp22

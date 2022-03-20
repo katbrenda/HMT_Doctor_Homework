@@ -1,12 +1,9 @@
-import { useContext } from "react"
-import { DataContext } from "../providers/DataProvider"
 const Home = ()=>{
-    const {dataDemo, setDataDemo} = useContext(DataContext)
     return (
         <div>
-            <h1>Home Page</h1>
-            <button onClick={()=>setDataDemo('dataDemo changed in home')}>Change dataDemo</button>
-            <p>demoState: {dataDemo}</p>
+            <h1>Welcome to Starter Project!</h1>
+            <p>This is project meant to as a starting point for other projects</p>
+            <p>Check the about page and the README.md</p>
         </div>
     )
 }
