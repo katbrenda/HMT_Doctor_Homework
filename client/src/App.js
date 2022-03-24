@@ -14,7 +14,12 @@ function App() {
       >
         <h1>Starter App</h1>
         <nav>
-          <Link to="/home">Home</Link> - <Link to="/about">About</Link>
+          <Link to="/home">Home&nbsp;</Link>
+          <Link to="/about">About&nbsp;</Link>
+          <Link to="/physicians">Physicians&nbsp;</Link>
+          <Link to="/patients"> Patients&nbsp;</Link>
+          <Link to="/appointments"> Appointments&nbsp;</Link>
+
         </nav>
       </nav>
       <div
